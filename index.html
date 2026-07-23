@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sardorbek Istamov — Web Dasturchi</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <span class="logo">Me<span class="logo-dot">.</span></span>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">// frontend_dasturchi.init()</p>
+    <h1 class="hero-title">
+      Salom, men <span class="highlight">Sardorbek</span><br>
+      Web<br>
+      loyihalar yaratuvchi!
+    </h1>
+    <p class="hero-sub">
+      HTML va CSS bilan g'oyalarni ekranga chiqaraman — tez, chiroyli va har qanday qurilmada ishonchli ishlaydigan sahifalar yarataman.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">Loyihalar</a>
+      <a href="#contact" class="btn btn-ghost">Xabar</a>
+    </div>
+  </div>
+  <div class="hero-console">
+    <div class="console-bar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="console-title">profile.css</span>
+    </div>
+    <pre class="console-body"><code><span class="c-sel">.developer</span> {
+  <span class="c-prop">name</span>: <span class="c-str">"Sardorbek Istamov"</span>;
+  <span class="c-prop">role</span>: <span class="c-str">"Web Dasturchi"</span>;
+  <span class="c-prop">location</span>: <span class="c-str">"Bukhara, UZ"</span>;
+  <span class="c-prop">stack</span>: [<span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>];
+  <span class="c-prop">status</span>: <span class="c-str">"mavjud"</span>;
+}</code></pre>
+  </div>
+</header>
+
+<main>
+
+  <section class="about" id="about">
+    <div class="section-head">
+      <span class="section-tag">About #1</span>
+      <h2>Web pLatformalar yaratish ishlayman</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        Men veb-sahifalarni chiroyli qilishdan ko'ra, ularni <em>ishlaydigan</em> qilishga qiziqaman.
+        Har bir piksel, har bir bo'shliq — o'z o'rnida bo'lishi kerak. Toza semantik HTML va
+        puxta CSS yordamida foydalanuvchi uchun qulay, tezkor va estetik jihatdan yoqimli
+        sahifalar yarataman. Kod yozishda soddalik va tartibni qadrlayman.
+      </p>
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">yillik tajriba</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">bajarilgan loyiha</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">responsiv dizayn</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <span class="section-tag">Skills #2</span>
+      <h2>Ishlatadigan vositalarim</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-icon">&lt;/&gt;</span>
+        <h3>HTML5</h3>
+        <p>Semantik, qulay va SEO-ga mos struktura qurish.</p>
+        <div class="bar"><div class="bar-fill" style="width:95%"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">{ }</span>
+        <h3>CSS3</h3>
+        <p>Flexbox, Grid, animatsiyalar va responsiv dizayn.</p>
+        <div class="bar"><div class="bar-fill" style="width:90%"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">▦</span>
+        <h3>Responsiv Dizayn</h3>
+        <p>Mobil, planshet va desktop uchun moslashuvchan sahifalar.</p>
+        <div class="bar"><div class="bar-fill" style="width:88%"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">✎</span>
+        <h3>UI Tafsilotlari</h3>
+        <p>Tipografiya, rang va bo'shliqlarga puxta yondashuv.</p>
+        <div class="bar"><div class="bar-fill" style="width:85%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <span class="section-tag">Projects #3</span>
+      <h2>Oxirgi ishlarim</h2>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-thumb thumb-1"></div>
+        <div class="project-body">
+          <h3>Restoran Sahifasi</h3>
+          <p>Mahalliy restoran uchun menyu va band qilish bo'limi bilan bir sahifali sayt.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb thumb-2"></div>
+        <div class="project-body">
+          <h3>Portfolio Galereyasi</h3>
+          <p>Fotograf uchun grid asosidagi rasm galereyasi va lightbox effekti.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-thumb thumb-3"></div>
+        <div class="project-body">
+          <h3>Landing Sahifa</h3>
+          <p>Startap uchun konvertatsiyaga yo'naltirilgan tanishtiruv sahifasi.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <span class="section-tag">Contact #4</span>
+      <h2>Loyiha bormi?<br>Yozib qoldiring.</h2>
+      <p class="contact-sub">Hamkorlik yoki savol uchun quyidagi manzillardan foydalaning.</p>
+      <div class="contact-links">
+        <a href="mailto:aziz.karimov@example.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">sardorbek.istamov@example.com</span>
+        </a>
+        <a href="tel:+998901234567" class="contact-link">
+          <span class="contact-label">Telefon</span>
+          <span class="contact-value">+998 99 732 48 32</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-label">Telegram</span>
+          <span class="contact-value">@sardorbekistamov</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/sardorbekistamov</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2026 Sardorbek Istamov. Barcha huquqlar himoyalangan.</p>
+  <p class="footer-made">HTML &amp; CSS bilan yaratildi.</p>
+</footer>
+
+</body>
+</html>
